@@ -13,9 +13,11 @@ Para iniciar o script e formar seus pares é bem simples. Mas primeiro você pre
 1. Instalar dependências do Composer
 2. Inserir o nome e email(s) de cada participante na variável `$nomes`
 3. Definir sua saída, atualmente o programa tem 2 modos de operação (vc reescreve na mão):
-3.1 **E-mail:** Função `enviaEmailDoPar($destino,$par);`, você configura o PHP-MAILER para funcionar de acordo com suas necessidades. O padrão é SMTP que eu particularmente acho mais prático mas se tiver algo melhor na cartola, sinta-se livre
-3.2 **Listagem de pares**: Função `mostraPares($pares);`, modo mais simples de mostrar os pares. Você abre mão do segredo dos casais mas tem algo mais rápido e menos custoso.
+    - **E-mail:** Função `enviaEmailDoPar($destino,$par);`, você configura o PHP-MAILER para funcionar de acordo com suas necessidades. O padrão é SMTP que eu particularmente acho mais prático mas se tiver algo melhor na cartola, sinta-se livre
+    - **Listagem de pares**: Função `mostraPares($pares);`, modo mais simples de mostrar os pares. Você abre mão do segredo dos casais mas tem algo mais rápido e menos custoso.
 4. Rodar com `php script.php`, pela linha de comando mesmo. Não testei com navegadores/apache/servidores.
 
 ## Considerações finais
 - Você pode colocar números ímpares, só acaba que um vai ficar de fora.
+
+Esse código não tá perfeito mas foi bom para as algumas horas em que eu fiz ele (sem falar que no momento que eu terminei isso são 2 am do dia dos namorados no Brasil). Vou melhorá-lo em breve mas caso tenha dúvidas, sugestões ou perguntas peço que faça bom uso das issues desse repositório <3. Feliz dia dos namorados!
