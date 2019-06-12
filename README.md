@@ -19,5 +19,7 @@ Para iniciar o script e formar seus pares é bem simples. Mas primeiro você pre
 
 ## Considerações finais
 - Você pode colocar números ímpares, só acaba que um vai ficar de fora.
+- O objetivo geral disso é meio que brincar com alguém.. Caso vc ache um uso sério pra isso é com você.
+- Programei isso bem rápido então tipo.. *é possível* ter casal homoafetivo sim. Caso não goste disso, por algum motivo, sinta-se livre pra tentar fazer o seu script.
 
 Esse código não tá perfeito mas foi bom para as algumas horas em que eu fiz ele (sem falar que no momento que eu terminei isso são 2 am do dia dos namorados no Brasil). Vou melhorá-lo em breve mas caso tenha dúvidas, sugestões ou perguntas peço que faça bom uso das issues desse repositório <3. Feliz dia dos namorados!
