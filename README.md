@@ -9,8 +9,8 @@ O programa funciona como um "amigo secreto" ou "amigo oculto". Secretamente sele
 - Print no console.
 
 ## Como rodar?
-Para iniciar o script e formar seus pares é bem simples. Mas primeiro você precisa ter o Composer instalado e uma versão recente do PHP (acho que roda no 5, no 7 é ctza).
-1. Instalar dependências do Composer
+Para iniciar o script e formar seus pares é bem simples. Mas primeiro você precisa ter o [Composer](https://getcomposer.org/) instalado e uma versão recente do PHP (acho que roda no 5, no 7 é ctza).
+1. Instalar dependências do [Composer](https://getcomposer.org/)
 2. Inserir o nome e email(s) de cada participante na variável `$nomes`
 3. Definir sua saída, atualmente o programa tem 2 modos de operação (vc reescreve na mão):
     - **E-mail:** Função `enviaEmailDoPar($destino,$par);`, você configura o PHP-MAILER para funcionar de acordo com suas necessidades. O padrão é SMTP que eu particularmente acho mais prático mas se tiver algo melhor na cartola, sinta-se livre
